@@ -1,0 +1,23 @@
+{
+  // Required
+  "manifest_version": 3,
+  "name": "Quick Link to Slack Channel",
+  "version": "1.0",
+
+  // Recommended
+  // icons on Tab
+  "action": {},
+  "default_locale": "en",
+  "description": "You can send a link to Slack quickly",
+  // icons
+  "icons": {},
+
+  // Optional
+  "author": "Atsushi Kawamura",
+  "background": {
+    // Required
+    "service_worker": "background.js",
+    // Optional
+    "type": ...
+  },
+}
